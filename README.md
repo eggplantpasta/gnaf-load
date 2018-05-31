@@ -49,7 +49,20 @@ mysql -u gnaf -h host -p gnaf < _master.sql
 
 ## Troubleshooting
 
+### Error loading data from files
+
 `ERROR 1148 (42000) at line 12: The used command is not allowed with this MariaDB version`
 
 See Stack overflow question "[access denied for load data infile in MySQL
 ](https://stackoverflow.com/questions/2221335/access-denied-for-load-data-infile-in-mysql)" for issues with loading the datafile.
+
+Try loading the files into a local mysql database if you can't get them to load over a remote connection.
+
+### Insufficient permissions on the destination database
+
+If you are unable to get the required permissions on the destination server then as a work around you can run the scripts into a local MySQL instance on your machine and then make a dumpfile of the data that cann be run wherever required.
+
+```sh
+mysqldump -u gnaf -p gnaf db_name > gnaf-dump.sql
+mysql -u gnaf -h host -p gnaf < gnaf-dump.sql
+```
