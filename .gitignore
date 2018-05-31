@@ -1,1 +1,4 @@
-raw-gnaf/
+# exclude the raw data as the latest version must be downloaded
+
+raw-gnaf/*
+!raw-gnaf/README.md
