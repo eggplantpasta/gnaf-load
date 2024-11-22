@@ -1,4 +1,3 @@
-# exclude the raw data as the latest version must be downloaded
-
-data/*
-!data/README.md
+# Ignore all data directory contents
+gnaf-data/*
+!gnaf-data/.gitkeep
