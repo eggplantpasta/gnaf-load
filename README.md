@@ -1,6 +1,6 @@
 # G-NAF Load
 
-Scripts to create, load, and index an [SQLite](https://www.sqlite.org/) database with government [Geocoded National Address File (G-NAF)](https://data.gov.au/dataset/geocoded-national-address-file-g-naf) data.
+Scripts to create, load, and index an [SQLite](https://www.sqlite.org/) database with official Australian government [Geocoded National Address File (G-NAF)](https://data.gov.au/dataset/geocoded-national-address-file-g-naf) data. This will result in a database file (`gnaf-data/gnaf.db`) of about 15GB.
 
 ## Installation and load
 
