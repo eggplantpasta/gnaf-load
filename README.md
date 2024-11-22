@@ -26,4 +26,4 @@ GNAF_DATA_PATH="gnaf-data/g-naf_nov24_allstates_gda2020_psv_1017/G-NAF/G-NAF NOV
 
 ## References
 
-* GeocodeEarth, [Exploring G-NAF with SQLite](References https://geocode.earth/blog/2021/exploring-gnaf-with-sqlite/)
+* GeocodeEarth, [Exploring G-NAF with SQLite](https://geocode.earth/blog/2021/exploring-gnaf-with-sqlite/)
