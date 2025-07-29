@@ -1,3 +1,4 @@
 # Ignore all data directory contents
 gnaf-data/*
 !gnaf-data/.gitkeep
+.DS_Store
