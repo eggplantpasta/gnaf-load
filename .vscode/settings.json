@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "gnaf",
+            "database": "${workspaceFolder:gnaf-load}/gnaf-data/gnaf.db"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
